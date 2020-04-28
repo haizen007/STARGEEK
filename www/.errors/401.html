@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		
+		<title>401 - Unauthorized</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="description" content="error, 401, erro" />
+		<meta name="robots" content="index,nofollow"/>
+		<meta name="author" content="Yonathan Stein"/>
+		<meta name="revisit-after" content="2 weeks"/>
+		<link rel="shortcut icon" href="/.errors/favicon.ico" type="image/x-icon"/>
+		
+		<link rel="stylesheet" href="/.errors/css/main.css" type="text/css" media="screen, projection" /> <!-- main stylesheet -->
+		<link rel="stylesheet" type="/.errors/text/css" media="all" href="css/tipsy.css" /> <!-- Tipsy implementation -->
+		<link rel="stylesheet" href="/.errors/css/app.css" type="text/css" media="screen, projection" /> <!-- custom yonathan -->
+		
+		<!--[if lt IE 8]>
+			<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+		<![endif]-->
+		
+		<script type="text/javascript" src="/.errors/js/jquery-1.7.2.min.js"></script> <!-- jQuery implementation -->
+		<script type="text/javascript" src="/.errors/js/custom-scripts.js"></script><!-- All of my custom scripts -->
+		<script type="text/javascript" src="/.errors/js/jquery.tipsy.js"></script> <!-- Tipsy -->
+		
+		<script type="text/javascript">
+			
+			$(document).ready(function(){
+				
+				universalPreloader();
+				
+			});
+			
+			$(window).load(function(){
+				
+				//remove Universal Preloader
+				universalPreloaderRemove();
+				
+				rotate();
+				dogRun();
+				dogTalk();
+				dogChanger();
+				
+				//Tipsy implementation
+				$('.with-tooltip').tipsy({gravity: $.fn.tipsy.autoNS});
+				
+			});
+			
+		</script>
+		
+	</head>
+	
+	<body>
+		
+		<!-- Universal preloader -->
+		<div id="universal-preloader">
+			<div class="preloader">
+				<img src="/.errors/images/universal-preloader.gif" alt="universal-preloader" class="universal-preloader-preloader"/>
+			</div>
+		</div>
+		<!-- Universal preloader -->
+		
+		<div id="wrapper">
+			<!-- 401 graphic -->
+			<div class="graphic">
+				<img src="/.errors/images/401.png" alt="401" />
+			</div>
+			<!-- 401 graphic -->
+			
+			<!-- Text, search form and menu -->
+			<div class="top-left">
+				<!-- Not found text -->
+				<div class="not-found-text">
+					<h1 class="not-found-text">Ops !!!<br/>Acesso negado<br/>Tente novamente</h1>
+				</div>
+				<!-- Not found text -->
+				
+				<!-- search form -->
+				<!--
+					<div class="search">
+					<form name="search" method="get" action="#">
+					<input type="text" name="search" value="Search ..." />
+					<input class="with-tooltip" title="Search!" type="submit" name="submit" value="" />
+					</form>
+					</div>
+				-->
+				<!-- search form -->
+				
+				<!-- top menu -->
+				<!--
+					<div class="top-menu">
+					<a href="#" class="with-tooltip" title="Return to the home page">Home</a> | <a href="#" class="with-tooltip" title="Navigate through our sitemap">Sitemap</a> | <a href="#" class="with-tooltip" title="Contact us!">Contact</a> | <a href="#" class="with-tooltip" title="Request additional help">Help</a>
+					</div>
+				-->
+				<!-- top menu -->
+			</div>
+			<!-- Text, search form and menu -->
+			
+			<!-- planet at the bottom -->
+			<div class="planet">
+				<div class="dog-wrapper">
+					<!-- dog running -->
+					<div class="dog"></div>
+					<!-- dog running -->
+					
+					<!-- dog bubble talking -->
+					<div class="dog-bubble">
+						
+					</div>
+					
+					<!-- The dog bubble rotates these -->
+					<div class="bubble-options">
+						<p class="dog-bubble">
+							<br/>
+							Você está Perdido?
+						</p>
+						<p class="dog-bubble">
+							Não se preocupe<br/>eu sou um ótimo cão guia!
+						</p>
+						<p class="dog-bubble">
+							<br />
+							Auu, Auu,<br/>Me siga...
+						</p>
+						<p class="dog-bubble">
+							<br/>
+							Continue me seguindo.<br/>Eu sei o caminho...
+						</p>
+						<p class="dog-bubble">
+							To com fome! Quero um <br /><img style="margin-top:8px" src="/.errors/images/cookie.png" alt="cookie" />
+						</p>
+						<p class="dog-bubble">
+							<br />
+							Só mais um pouco...
+						</p>
+						<p class="dog-bubble">
+							<br/>
+							Hmmm, acho que estamos andando em círculos...
+						</p>
+						<p class="dog-bubble">
+							Afffff......<br/>Acho que eu me perdi.
+						</p>
+						<p class="dog-bubble">
+							Olha! Eu vi um <br /><img style="margin-top:8px" src="/.errors/images/cat.png" alt="cat" />
+						</p>
+						<p class="dog-bubble">
+							O que estávamos procurando mesmo?<br/>@_@
+						</p>
+					</div>
+					
+					<!-- The dog bubble rotates these -->
+					<!-- dog bubble talking -->
+				</div>
+				
+				<!-- planet image -->
+				<img src="/.errors/images/planet.png" alt="planet" />
+				<!-- planet image -->
+			</div>
+			<!-- planet at the bottom -->
+		</div>
+		
+	</body>
+	
+</html>

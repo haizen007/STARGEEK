@@ -1,0 +1,15 @@
+ErrorDocument 400 /.errors/400
+ErrorDocument 401 /.errors/401
+ErrorDocument 403 /.errors/403
+ErrorDocument 404 /.errors/404
+ErrorDocument 500 /.errors/500
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
