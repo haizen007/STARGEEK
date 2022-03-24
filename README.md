@@ -2,7 +2,7 @@
 
 1.6.3
 
-## Play on your Browser (v1.6.3)
+## Play in your Browser (v1.6.3)
 
 Link: [HTTP](http://stargeek.yonathan.com.br/)
 
